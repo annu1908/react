@@ -1,0 +1,30 @@
+.projects-section {
+    padding: 2rem;
+    background-color: #f5f7fa;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects-section h2{
+    text-align: center;
+    font-size: 2rem;
+    color:#b2447a;
+    margin-bottom: 2rem;
+}
+.project-item {
+    background-color: #ffffff; 
+    border-left: 4px solid #b2447a;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+.project-item h3{
+    color: #d4377d;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.project-item p{
+    font-size: 1rem;
+    line-height:1.6;
+}

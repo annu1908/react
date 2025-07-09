@@ -6,10 +6,10 @@ function Navbar(){
         <>
         <nav>
         
-            <h1>Dreamscape Creation</h1>
+            <h1>Annu's Portfolio</h1>
             <ul>
                 <Link to={'/'}>Home</Link>
-                <Link to={'/products'}>Products</Link>
+                <Link to={'/project'}>Project</Link>
                 <Link to={'/contact'}>Contact</Link>
                 <Link to={'/about'}>About</Link>
             </ul>
