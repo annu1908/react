@@ -4,10 +4,10 @@ import './Navbar.css'
 function Navbar(){
     return(
         <>
-        <nav>
+        <nav className="navbar">
         
             <h1>Annu's Portfolio</h1>
-            <ul>
+            <ul className="nav-links">
                 <Link to={'/'}>Home</Link>
                 <Link to={'/project'}>Project</Link>
                 <Link to={'/contact'}>Contact</Link>

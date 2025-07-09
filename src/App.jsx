@@ -1,16 +1,17 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes ,BrowserRouter as Router} from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
+import './App.css'
 
 function App(){
     return(
-        
-        <div className="app-wrapper">
+         <div className="app-wrapper">
+            <Router>
         <Navbar/>
        <div className="content-wrap">
         <Routes>
@@ -22,6 +23,7 @@ function App(){
         </Routes>
         </div>
         <Footer/>
+        </Router>
         </div>
         
     )
