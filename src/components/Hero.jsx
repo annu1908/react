@@ -1,6 +1,6 @@
 import React from "react";
 import './Hero.css'
-import profileImg from "../assets/profile.jpeg";
+import profileImg from "../assets/Annu_profile.jpeg";
 function Hero(){
     return(
         <section className="home-section" id="Home">
